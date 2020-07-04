@@ -1,0 +1,266 @@
+2020-07-03T09:18:50.2094172Z ##[group]Run cmake --build ./build --config Release --clean-first
+2020-07-03T09:18:50.2094379Z [36;1mcmake --build ./build --config Release --clean-first[0m
+2020-07-03T09:18:50.2107525Z shell: C:\Program Files\Git\bin\bash.EXE --noprofile --norc -e -o pipefail {0}
+2020-07-03T09:18:50.2107629Z env:
+2020-07-03T09:18:50.2107739Z   Qt5_Dir: D:/a/openal-soft/openal-soft/Qt/5.14.2/msvc2017_64
+2020-07-03T09:18:50.2107855Z   QT_PLUGIN_PATH: D:/a/openal-soft/openal-soft/Qt/5.14.2/msvc2017_64/plugins
+2020-07-03T09:18:50.2107974Z   QML2_IMPORT_PATH: D:/a/openal-soft/openal-soft/Qt/5.14.2/msvc2017_64/qml
+2020-07-03T09:18:50.2108086Z ##[endgroup]
+2020-07-03T09:18:50.7265280Z Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+2020-07-03T09:18:50.7265784Z Copyright (C) Microsoft Corporation. All rights reserved.
+2020-07-03T09:18:50.7265949Z 
+2020-07-03T09:18:53.5290409Z Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+2020-07-03T09:18:53.5291138Z Copyright (C) Microsoft Corporation. All rights reserved.
+2020-07-03T09:18:53.5291491Z 
+2020-07-03T09:18:55.5434918Z   Checking Build System
+2020-07-03T09:18:55.8384151Z   Building Custom Rule D:/a/openal-soft/openal-soft/CMakeLists.txt
+2020-07-03T09:18:55.9327759Z   Building Custom Rule D:/a/openal-soft/openal-soft/CMakeLists.txt
+2020-07-03T09:18:56.0589018Z   alcomplex.cpp
+2020-07-03T09:18:56.8771925Z   alexcpt.cpp
+2020-07-03T09:18:57.3093196Z   alfstream.cpp
+2020-07-03T09:18:58.0421995Z   almalloc.cpp
+2020-07-03T09:18:58.4536192Z   alstring.cpp
+2020-07-03T09:18:58.9515916Z   dynload.cpp
+2020-07-03T09:18:59.6167268Z   polyphase_resampler.cpp
+2020-07-03T09:18:59.9580306Z   strutils.cpp
+2020-07-03T09:19:00.6269274Z   threads.cpp
+2020-07-03T09:19:01.0543014Z   Generating Code...
+2020-07-03T09:19:01.7915292Z   common.vcxproj -> D:\a\openal-soft\openal-soft\build\Release\common.lib
+2020-07-03T09:19:01.8382455Z   Building Custom Rule D:/a/openal-soft/openal-soft/CMakeLists.txt
+2020-07-03T09:19:01.9141915Z   router.cpp
+2020-07-03T09:19:03.0370649Z   alc.cpp
+2020-07-03T09:19:04.1047982Z   al.cpp
+2020-07-03T09:19:05.0388446Z   Generating Code...
+2020-07-03T09:19:08.7936066Z      Creating library D:/a/openal-soft/openal-soft/build/Release/OpenAL32.lib and object D:/a/openal-soft/openal-soft/build/Release/OpenAL32.exp
+2020-07-03T09:19:08.9745867Z   OpenAL.vcxproj -> D:\a\openal-soft\openal-soft\build\Release\OpenAL32.dll
+2020-07-03T09:19:09.0989074Z   Building Custom Rule D:/a/openal-soft/openal-soft/CMakeLists.txt
+2020-07-03T09:19:09.1743726Z   alhelpers.c
+2020-07-03T09:19:09.4422249Z   ex-common.vcxproj -> D:\a\openal-soft\openal-soft\build\Release\ex-common.lib
+2020-07-03T09:19:09.4808869Z   Building Custom Rule D:/a/openal-soft/openal-soft/CMakeLists.txt
+2020-07-03T09:19:09.5498567Z   alrecord.c
+2020-07-03T09:19:09.6060015Z D:\a\openal-soft\openal-soft\examples\alrecord.c(57): warning C4204: nonstandard extension used: non-constant aggregate initializer [D:\a\openal-soft\openal-soft\build\alrecord.vcxproj]
+2020-07-03T09:19:09.6060275Z D:\a\openal-soft\openal-soft\examples\alrecord.c(63): warning C4204: nonstandard extension used: non-constant aggregate initializer [D:\a\openal-soft\openal-soft\build\alrecord.vcxproj]
+2020-07-03T09:19:09.9850868Z   alrecord.vcxproj -> D:\a\openal-soft\openal-soft\build\Release\alrecord.exe
+2020-07-03T09:19:10.0551574Z   Generating ui_mainwindow.h
+2020-07-03T09:19:10.0939531Z   Generating moc_mainwindow.cpp
+2020-07-03T09:19:10.1143636Z   Building Custom Rule D:/a/openal-soft/openal-soft/utils/alsoft-config/CMakeLists.txt
+2020-07-03T09:19:10.1766020Z   main.cpp
+2020-07-03T09:19:11.9091065Z   mainwindow.cpp
+2020-07-03T09:19:14.7576671Z D:\a\openal-soft\openal-soft\utils\alsoft-config\mainwindow.cpp(480): warning C4996: 'QListWidget::setItemHidden': Use QListWidgetItem::setHidden() instead [D:\a\openal-soft\openal-soft\build\utils\alsoft-config\alsoft-config.vcxproj]
+2020-07-03T09:19:14.7576990Z   d:\a\openal-soft\openal-soft\qt\5.14.2\msvc2017_64\include\qtwidgets\qlistwidget.h(272): note: see declaration of 'QListWidget::setItemHidden'
+2020-07-03T09:19:15.2427866Z   verstr.cpp
+2020-07-03T09:19:16.0103122Z   moc_mainwindow.cpp
+2020-07-03T09:19:17.6675040Z   Generating Code...
+2020-07-03T09:19:26.2927718Z   alsoft-config.vcxproj -> D:\a\openal-soft\openal-soft\build\Release\alsoft-config.exe
+2020-07-03T09:19:26.3658427Z   Building Custom Rule D:/a/openal-soft/openal-soft/CMakeLists.txt
+2020-07-03T09:19:26.4359848Z   altonegen.c
+2020-07-03T09:19:26.7701453Z   altonegen.vcxproj -> D:\a\openal-soft\openal-soft\build\Release\altonegen.exe
+2020-07-03T09:19:26.8501750Z   Building Custom Rule D:/a/openal-soft/openal-soft/CMakeLists.txt
+2020-07-03T09:19:26.9240536Z   openal-info.c
+2020-07-03T09:19:27.3923132Z   openal-info.vcxproj -> D:\a\openal-soft\openal-soft\build\Release\openal-info.exe
+2020-07-03T09:19:27.4703063Z   Generating hrtf_default.h
+2020-07-03T09:19:27.7651542Z   Building Custom Rule D:/a/openal-soft/openal-soft/CMakeLists.txt
+2020-07-03T09:19:27.8564507Z   auxeffectslot.cpp
+2020-07-03T09:19:29.0085157Z   buffer.cpp
+2020-07-03T09:19:30.1157646Z   effect.cpp
+2020-07-03T09:19:31.1807778Z   error.cpp
+2020-07-03T09:19:31.8578702Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14179): error C2143: syntax error: missing ';' before '__cdecl' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:31.8579529Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14179): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:31.8580066Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14181): error C2146: syntax error: missing ')' before identifier 'value' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:31.8580498Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14185): error C2143: syntax error: missing ';' before '__cdecl' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:31.8581102Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14185): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:31.8581535Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14186): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:31.8581950Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14190): error C2143: syntax error: missing ';' before '__cdecl' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:31.8582364Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14190): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:31.8582789Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14192): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:32.9016478Z   event.cpp
+2020-07-03T09:19:34.0445174Z   extension.cpp
+2020-07-03T09:19:35.1053416Z   filter.cpp
+2020-07-03T09:19:36.2358658Z   listener.cpp
+2020-07-03T09:19:37.2975060Z   source.cpp
+2020-07-03T09:19:38.6217979Z   state.cpp
+2020-07-03T09:19:39.6933905Z   alc.cpp
+2020-07-03T09:19:39.8894290Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14179): error C2143: syntax error: missing ';' before '__cdecl' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:39.8894891Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14179): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:39.8896157Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14181): error C2146: syntax error: missing ')' before identifier 'value' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:39.8896702Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14185): error C2143: syntax error: missing ';' before '__cdecl' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:39.8897478Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14185): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:39.8897992Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14186): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:39.8898592Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14190): error C2143: syntax error: missing ';' before '__cdecl' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:39.8899736Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14190): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:39.8900833Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14192): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:41.0597130Z   alu.cpp
+2020-07-03T09:19:42.3193586Z   alconfig.cpp
+2020-07-03T09:19:42.8658242Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14179): error C2143: syntax error: missing ';' before '__cdecl' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:42.8659271Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14179): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:42.8660305Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14181): error C2146: syntax error: missing ')' before identifier 'value' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:42.8660992Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14185): error C2143: syntax error: missing ';' before '__cdecl' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:42.8661464Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14185): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:42.8662139Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14186): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:42.8662871Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14190): error C2143: syntax error: missing ';' before '__cdecl' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:42.8663357Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14190): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:42.8664541Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14192): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:44.4006590Z   ambdec.cpp
+2020-07-03T09:19:45.0249900Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14179): error C2143: syntax error: missing ';' before '__cdecl' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:45.0251750Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14179): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:45.0253710Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14181): error C2146: syntax error: missing ')' before identifier 'value' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:45.0256141Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14185): error C2143: syntax error: missing ';' before '__cdecl' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:45.0256790Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14185): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:45.0257705Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14186): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:45.0260077Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14190): error C2143: syntax error: missing ';' before '__cdecl' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:45.0270850Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14190): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:45.0271741Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14192): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:45.0947024Z   bformatdec.cpp
+2020-07-03T09:19:46.0312514Z D:\a\openal-soft\openal-soft\common\alspan.h(253): warning C4307: '*': integral constant overflow [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:46.0314286Z   D:\a\openal-soft\openal-soft\alc\bformatdec.cpp(234): note: see reference to function template instantiation 'al::span<Real,18446744073709551615> al::span<Real,18446744073709551615>::subspan<256,18446744073709551615>(void) const' being compiled
+2020-07-03T09:19:46.0314951Z           with
+2020-07-03T09:19:46.0315245Z           [
+2020-07-03T09:19:46.0315502Z               Real=float
+2020-07-03T09:19:46.0315767Z           ]
+2020-07-03T09:19:46.0316133Z   D:\a\openal-soft\openal-soft\alc\bformatdec.cpp(234): note: see reference to function template instantiation 'al::span<Real,18446744073709551615> al::span<Real,18446744073709551615>::subspan<256,18446744073709551615>(void) const' being compiled
+2020-07-03T09:19:46.0316456Z           with
+2020-07-03T09:19:46.0316709Z           [
+2020-07-03T09:19:46.0316970Z               Real=float
+2020-07-03T09:19:46.0317249Z           ]
+2020-07-03T09:19:46.0317932Z   d:\a\openal-soft\openal-soft\alc\alcmain.h(171): note: see reference to class template instantiation 'al::span<FloatBufferLine,18446744073709551615>' being compiled
+2020-07-03T09:19:46.1258881Z   bs2b.cpp
+2020-07-03T09:19:46.5078538Z   bsinc_tables.cpp
+2020-07-03T09:19:46.9771702Z   converter.cpp
+2020-07-03T09:19:47.9705401Z   cpu_caps.cpp
+2020-07-03T09:19:48.5135445Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14179): error C2143: syntax error: missing ';' before '__cdecl' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:48.5136842Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14179): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:48.5138240Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14181): error C2146: syntax error: missing ')' before identifier 'value' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:48.5139081Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14185): error C2143: syntax error: missing ';' before '__cdecl' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:48.5139729Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14185): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:48.5140724Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14186): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:48.5141960Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14190): error C2143: syntax error: missing ';' before '__cdecl' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:48.5142578Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14190): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:48.5143686Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14192): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:19:49.5469877Z   autowah.cpp
+2020-07-03T09:19:49.6185471Z   Generating Code...
+2020-07-03T09:20:03.0881732Z   Compiling...
+2020-07-03T09:20:03.0881998Z   chorus.cpp
+2020-07-03T09:20:04.1546999Z   compressor.cpp
+2020-07-03T09:20:05.1852050Z   dedicated.cpp
+2020-07-03T09:20:06.2185535Z   distortion.cpp
+2020-07-03T09:20:07.2516517Z   echo.cpp
+2020-07-03T09:20:08.3568512Z   equalizer.cpp
+2020-07-03T09:20:09.4495628Z   fshifter.cpp
+2020-07-03T09:20:10.6589483Z   modulator.cpp
+2020-07-03T09:20:11.7011367Z   pshifter.cpp
+2020-07-03T09:20:12.8256804Z   reverb.cpp
+2020-07-03T09:20:13.9876991Z   vmorpher.cpp
+2020-07-03T09:20:15.0282757Z   biquad.cpp
+2020-07-03T09:20:15.4786208Z   nfc.cpp
+2020-07-03T09:20:15.8989920Z   splitter.cpp
+2020-07-03T09:20:16.3246455Z   fpu_ctrl.cpp
+2020-07-03T09:20:16.3793588Z   helpers.cpp
+2020-07-03T09:20:17.3586721Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14179): error C2143: syntax error: missing ';' before '__cdecl' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:17.3595392Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14179): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:17.3599929Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14181): error C2146: syntax error: missing ')' before identifier 'value' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:17.3627224Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14185): error C2143: syntax error: missing ';' before '__cdecl' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:17.3627822Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14185): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:17.3628304Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14186): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:17.3628748Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14190): error C2143: syntax error: missing ';' before '__cdecl' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:17.3629945Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14190): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:17.3630767Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14192): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:17.7364766Z   hrtf.cpp
+2020-07-03T09:20:18.7580245Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14179): error C2143: syntax error: missing ';' before '__cdecl' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:18.7581057Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14179): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:18.7581858Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14181): error C2146: syntax error: missing ')' before identifier 'value' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:18.7582761Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14185): error C2143: syntax error: missing ';' before '__cdecl' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:18.7583323Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14185): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:18.7584355Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14186): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:18.7585478Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14190): error C2143: syntax error: missing ';' before '__cdecl' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:18.7586262Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14190): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:18.7587748Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14192): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:19.0397464Z   mastering.cpp
+2020-07-03T09:20:20.2671339Z   panning.cpp
+2020-07-03T09:20:21.5637818Z   ringbuffer.cpp
+2020-07-03T09:20:22.1824640Z   Generating Code...
+2020-07-03T09:20:25.2144703Z   Compiling...
+2020-07-03T09:20:25.2146468Z   uhjfilter.cpp
+2020-07-03T09:20:26.2090119Z   uiddefs.cpp
+2020-07-03T09:20:26.4126893Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14179): error C2143: syntax error: missing ';' before '__cdecl' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:26.4127171Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14179): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:26.4127371Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14181): error C2146: syntax error: missing ')' before identifier 'value' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:26.4127565Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14185): error C2143: syntax error: missing ';' before '__cdecl' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:26.4127758Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14185): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:26.4128417Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14186): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:26.4129865Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14190): error C2143: syntax error: missing ';' before '__cdecl' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:26.4130411Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14190): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:26.4130782Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14192): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:26.6907671Z   voice.cpp
+2020-07-03T09:20:27.7650850Z   mixer_c.cpp
+2020-07-03T09:20:28.7164087Z D:\a\openal-soft\openal-soft\common\alspan.h(253): warning C4307: '*': integral constant overflow [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:28.7165427Z   d:\a\openal-soft\openal-soft\alc\mixer\hrtfbase.h(127): note: see reference to function template instantiation 'al::span<Real,18446744073709551615> al::span<Real,18446744073709551615>::subspan<192,18446744073709551615>(void) const' being compiled
+2020-07-03T09:20:28.7166494Z           with
+2020-07-03T09:20:28.7166720Z           [
+2020-07-03T09:20:28.7167369Z               Real=float
+2020-07-03T09:20:28.7167592Z           ]
+2020-07-03T09:20:28.7168295Z   d:\a\openal-soft\openal-soft\alc\mixer\hrtfbase.h(127): note: see reference to function template instantiation 'al::span<Real,18446744073709551615> al::span<Real,18446744073709551615>::subspan<192,18446744073709551615>(void) const' being compiled
+2020-07-03T09:20:28.7168900Z           with
+2020-07-03T09:20:28.7169411Z           [
+2020-07-03T09:20:28.7169519Z               Real=float
+2020-07-03T09:20:28.7169963Z           ]
+2020-07-03T09:20:28.7170258Z   D:\a\openal-soft\openal-soft\alc\mixer\mixer_c.cpp(156): note: see reference to function template instantiation 'void MixDirectHrtfBase<void `anonymous-namespace'::ApplyCoeffs(float2 *__restrict ,const uint_fast32_t,const HrirArray &,const float,const float)>(FloatBufferLine &,FloatBufferLine &,const al::span<const FloatBufferLine,18446744073709551615>,float2 *__restrict ,DirectHrtfState *,const size_t)' being compiled
+2020-07-03T09:20:28.7506647Z   mixer_sse.cpp
+2020-07-03T09:20:29.6975346Z D:\a\openal-soft\openal-soft\common\alspan.h(253): warning C4307: '*': integral constant overflow [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:29.6976639Z   d:\a\openal-soft\openal-soft\alc\mixer\hrtfbase.h(127): note: see reference to function template instantiation 'al::span<Real,18446744073709551615> al::span<Real,18446744073709551615>::subspan<192,18446744073709551615>(void) const' being compiled
+2020-07-03T09:20:29.6977102Z           with
+2020-07-03T09:20:29.6977378Z           [
+2020-07-03T09:20:29.6977655Z               Real=float
+2020-07-03T09:20:29.6977869Z           ]
+2020-07-03T09:20:29.6978269Z   d:\a\openal-soft\openal-soft\alc\mixer\hrtfbase.h(127): note: see reference to function template instantiation 'al::span<Real,18446744073709551615> al::span<Real,18446744073709551615>::subspan<192,18446744073709551615>(void) const' being compiled
+2020-07-03T09:20:29.6978586Z           with
+2020-07-03T09:20:29.6978838Z           [
+2020-07-03T09:20:29.6979089Z               Real=float
+2020-07-03T09:20:29.6979336Z           ]
+2020-07-03T09:20:29.6979892Z   D:\a\openal-soft\openal-soft\alc\mixer\mixer_sse.cpp(186): note: see reference to function template instantiation 'void MixDirectHrtfBase<void `anonymous-namespace'::ApplyCoeffs(float2 *__restrict ,const uint_fast32_t,const HrirArray &,const float,const float)>(FloatBufferLine &,FloatBufferLine &,const al::span<const FloatBufferLine,18446744073709551615>,float2 *__restrict ,DirectHrtfState *,const size_t)' being compiled
+2020-07-03T09:20:29.7337508Z   mixer_sse2.cpp
+2020-07-03T09:20:30.6402467Z   mixer_sse3.cpp
+2020-07-03T09:20:30.6452708Z   mixer_sse41.cpp
+2020-07-03T09:20:31.5360448Z   base.cpp
+2020-07-03T09:20:32.5386444Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14179): error C2143: syntax error: missing ';' before '__cdecl' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:32.5387111Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14179): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:32.5387541Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14181): error C2146: syntax error: missing ')' before identifier 'value' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:32.5388004Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14185): error C2143: syntax error: missing ';' before '__cdecl' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:32.5388346Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14185): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:32.5388660Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14186): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:32.5388936Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14190): error C2143: syntax error: missing ';' before '__cdecl' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:32.5389219Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14190): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:32.5389481Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14192): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:32.6405866Z   loopback.cpp
+2020-07-03T09:20:33.5783030Z   winmm.cpp
+2020-07-03T09:20:34.5775035Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14179): error C2143: syntax error: missing ';' before '__cdecl' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:34.5778915Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14179): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:34.5782008Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14181): error C2146: syntax error: missing ')' before identifier 'value' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:34.5785135Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14185): error C2143: syntax error: missing ';' before '__cdecl' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:34.5788031Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14185): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:34.5790609Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14186): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:34.5793799Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14190): error C2143: syntax error: missing ';' before '__cdecl' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:34.5796801Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14190): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:34.6016398Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14192): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:34.8806009Z   dsound.cpp
+2020-07-03T09:20:35.9499722Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14179): error C2143: syntax error: missing ';' before '__cdecl' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:35.9506706Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14179): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:35.9509816Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14181): error C2146: syntax error: missing ')' before identifier 'value' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:35.9510522Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14185): error C2143: syntax error: missing ';' before '__cdecl' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:35.9510986Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14185): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:35.9511490Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14186): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:35.9511982Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14190): error C2143: syntax error: missing ';' before '__cdecl' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:35.9512616Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14190): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:35.9513180Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14192): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:36.1763489Z   wasapi.cpp
+2020-07-03T09:20:37.7719987Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14179): error C2143: syntax error: missing ';' before '__cdecl' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:37.7720604Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14179): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:37.7720814Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14181): error C2146: syntax error: missing ')' before identifier 'value' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:37.7720994Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14185): error C2143: syntax error: missing ';' before '__cdecl' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:37.7721185Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14185): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:37.7722251Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14186): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:37.7722435Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14190): error C2143: syntax error: missing ';' before '__cdecl' [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:37.7722615Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14190): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:37.7722794Z C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h(14192): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [D:\a\openal-soft\openal-soft\build\soft_oal.vcxproj]
+2020-07-03T09:20:37.9489367Z   wave.cpp
+2020-07-03T09:20:39.0091554Z   Generating Code...
+2020-07-03T09:20:40.4933828Z ##[error]Process completed with exit code 1.
