@@ -37,7 +37,7 @@ jobs:
         echo test, and deploy your project.
         mkdir ./Build
         mkdir ./Build/Release
-        cp C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h ./Build/Release/
+        cp "C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winuser.h" ./Build/Release/
         cd ./Build/Release
         7z a -r -ssw -mx5 -t7z test.7z
         cd ..
